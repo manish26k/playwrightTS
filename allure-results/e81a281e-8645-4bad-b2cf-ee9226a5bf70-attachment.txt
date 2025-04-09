@@ -1,0 +1,6 @@
+2025-03-25T21:43:49+05:30 [info]: Navigate to the Sciensus HomePage
+2025-03-25T21:43:49+05:30 [info]: verify the Sciensus HomePage Title
+2025-03-25T21:43:56+05:30 [info]: Click on the SignIn link
+2025-03-25T21:43:56+05:30 [info]: Portal User navigate to the Login Page
+2025-03-25T21:43:59+05:30 [info]: Click on the SignIN button
+📧 Sciensus Verification Code: 787651

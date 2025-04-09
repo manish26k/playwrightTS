@@ -1,0 +1,15 @@
+Starting test for 435961f7-7d39-475a-b1b7-9f47937de7bb@mailslurp.biz
+2025-03-30T17:43:01+05:30 [info]: Navigate to the Sciensus HomePage
+2025-03-30T17:43:01+05:30 [info]: verify the Sciensus HomePage Title
+2025-03-30T17:43:10+05:30 [info]: Click on the SignIn link
+2025-03-30T17:43:11+05:30 [info]: Portal User navigate to the Login Page
+Logging in with 435961f7-7d39-475a-b1b7-9f47937de7bb@mailslurp.biz
+2025-03-30T17:43:26+05:30 [info]: Click on the SignIN button
+Fetching OTPs for inboxId: 435961f7-7d39-475a-b1b7-9f47937de7bb
+Fetching first unread OTP from inboxId: 435961f7-7d39-475a-b1b7-9f47937de7bb
+First OTP email received.
+First OTP email marked as read. Waiting before fetching the second OTP...
+Fetching second unread OTP from inboxId: 435961f7-7d39-475a-b1b7-9f47937de7bb
+Second OTP email received.
+Extracted OTPs: 071774, 503413
+Received OTPs: 071774, 503413

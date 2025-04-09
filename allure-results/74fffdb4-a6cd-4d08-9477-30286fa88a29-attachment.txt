@@ -1,0 +1,10 @@
+Starting test for ${data.email}
+2025-04-04T21:05:47+05:30 [info]: Navigate to the Sciensus HomePage
+2025-04-04T21:05:47+05:30 [info]: verify the Sciensus HomePage Title
+2025-04-04T21:05:55+05:30 [info]: Click on the SignIn link
+2025-04-04T21:05:56+05:30 [info]: Portal User navigate to the Login Page
+Logging in with ${data.email}
+2025-04-04T21:06:02+05:30 [info]: Click on the SignIN button
+Waiting for OTP for User ${index + 1}
+Fetching OTPs for inboxId: c2cd671e-da63-4c7e-a9a3-c18203f7b83b
+🔍 Waiting for 2 OTPs in inbox: c2cd671e-da63-4c7e-a9a3-c18203f7b83b

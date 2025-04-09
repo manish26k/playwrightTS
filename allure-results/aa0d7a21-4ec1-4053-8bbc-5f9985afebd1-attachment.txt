@@ -1,0 +1,5 @@
+2025-03-10T20:01:35+05:30 [info]: Navigate to the Sciensus HomePage
+2025-03-10T20:01:35+05:30 [info]: verify the Sciensus HomePage Title
+2025-03-10T20:01:47+05:30 [info]: Click on the SignIn link
+2025-03-10T20:01:47+05:30 [info]: Portal User navigate to the Login Page
+2025-03-10T20:01:52+05:30 [info]: Click on the SignIN button

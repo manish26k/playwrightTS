@@ -1,0 +1,50 @@
+name: Run QA Tests
+
+on:
+  push:
+    branches: [main,master]
+    paths:
+      - 'tests/**'
+      - 'playwright.dev.config.ts'
+      - 'testConfig.ts'
+      - '.github/workflows/qa.yml'
+  pull_request:
+    branches: [main,master]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Run QA Environment Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: Run QA Tests with Allure Reporting
+        run: npm run ci:dev
+
+      - name: Upload Allure Report Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report-qa
+          path: allure-report
+
+      - name: Deploy Allure Report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
+          destination_dir: qa

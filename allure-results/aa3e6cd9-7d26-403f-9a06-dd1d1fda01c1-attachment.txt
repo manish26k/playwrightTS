@@ -1,0 +1,15 @@
+2025-03-15T13:35:45+05:30 [info]: Navigate to the Sciensus HomePage
+2025-03-15T13:35:45+05:30 [info]: verify the Sciensus HomePage Title
+2025-03-15T13:35:54+05:30 [info]: Click on the SignIn link
+2025-03-15T13:35:54+05:30 [info]: Portal User navigate to the Login Page
+2025-03-15T13:35:59+05:30 [info]: Click on the SignIN button
+Sciensus new verificationCode is------>730965
+2025-03-15T13:36:25+05:30 [info]: Click on the Add New User Account Button
+Data saved successfully: userDetails.json
+ NEWLY CREATED INBOX ID IS ------>89ec774f-48a0-4f42-ad8f-090d164a3b57
+ NEW EMAIL IS --------> 89ec774f-48a0-4f42-ad8f-090d164a3b57@mailslurp.biz
+Data saved successfully: NewLoginCredentials.json
+2025-03-15T13:37:46+05:30 [info]: Click on the SignIn link
+2025-03-15T13:37:46+05:30 [info]: Portal User navigate to the Login Page
+Sciensus new verificationCode is------>860626
+Data saved successfully: NewLoginCredentials.json

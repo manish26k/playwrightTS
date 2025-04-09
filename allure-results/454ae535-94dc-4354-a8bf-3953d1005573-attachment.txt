@@ -1,0 +1,7 @@
+Starting test for ${data.email}
+2025-04-05T21:07:26+05:30 [info]: Navigate to the Sciensus HomePage
+2025-04-05T21:07:26+05:30 [info]: verify the Sciensus HomePage Title
+2025-04-05T21:07:44+05:30 [info]: Click on the SignIn link
+2025-04-05T21:07:44+05:30 [info]: Portal User navigate to the Login Page
+Logging in with ${data.email}
+2025-04-05T21:07:49+05:30 [info]: Click on the SignIN button

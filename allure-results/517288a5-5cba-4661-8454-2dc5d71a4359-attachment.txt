@@ -1,0 +1,3 @@
+Starting test for 435961f7-7d39-475a-b1b7-9f47937de7bb@mailslurp.biz
+2025-03-29T14:28:54+05:30 [info]: Navigate to the Sciensus HomePage
+2025-03-29T14:28:54+05:30 [info]: verify the Sciensus HomePage Title
