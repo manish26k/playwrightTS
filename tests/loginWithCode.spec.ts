@@ -103,6 +103,8 @@ test.describe("Portal Login Features Functionality", () => {
 
 
    test.describe('Portal login with valid credentails using json file', () => {
+    
+    //using as global variable
     const mailSlurp = new MailSlurpHelper(testConfig.apiKEY);
     const loginData = TestDataManager.getTestData('LoginCredentials.json');
 
@@ -110,12 +112,12 @@ test.describe("Portal Login Features Functionality", () => {
       tag: ['@login'],
       annotation:[
         { type: AnnotationType.Description,description: 'Login into the Portal'},
-        { type: AnnotationType.Precondition,description: 'User should be able to login with valid credentials'},
+        { type: AnnotationType.Precondition,description: 'User should be able to login with valid credentials from JSON'},
       ],
     }, async ({ loginPage, homePage }) => {
       await allure.displayName('Sciensus Login Functionality');
       await allure.feature('Login')
-      await allure.owner('Pradeep');
+      await allure.owner('Manish Rana');
       await allure.tag('@login');
       await allure.severity('critical');
       
