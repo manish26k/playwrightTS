@@ -102,7 +102,7 @@ test.describe("Portal Login Features Functionality", () => {
    });
 
 
-   test.describe('Portal login with valid credentails', () => {
+   test.describe('Portal login with valid credentails using json file', () => {
     const mailSlurp = new MailSlurpHelper(testConfig.apiKEY);
     const loginData = TestDataManager.getTestData('LoginCredentials.json');
 
