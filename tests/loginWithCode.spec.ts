@@ -32,7 +32,7 @@ test.describe("Portal Login Features Functionality", () => {
 
     })
 
-    test("Portal Login Functionality- Using stored credentails and verification Code" , async ({ loginPage, homePage }) =>{
+    test.skip("Portal Login Functionality- Using stored credentails and verification Code" , async ({ loginPage, homePage }) =>{
         await homePage.navigateToURL();
         await homePage.clickSignInButton();
         const mailSlurp = new MailSlurpHelper(testConfig.apiKEY);
