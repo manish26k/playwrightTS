@@ -1,6 +1,0 @@
-2025-03-25T14:57:27+05:30 [info]: Navigate to the Sciensus HomePage
-2025-03-25T14:57:27+05:30 [info]: verify the Sciensus HomePage Title
-2025-03-25T14:57:34+05:30 [info]: Click on the SignIn link
-2025-03-25T14:57:34+05:30 [info]: Portal User navigate to the Login Page
-2025-03-25T14:57:39+05:30 [info]: Click on the SignIN button
-📧 Sciensus Verification Code: 110748

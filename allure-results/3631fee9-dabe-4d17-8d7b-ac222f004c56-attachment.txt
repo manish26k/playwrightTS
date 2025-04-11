@@ -1,6 +1,0 @@
-2025-03-16T22:29:44+05:30 [info]: Navigate to the Sciensus HomePage
-2025-03-16T22:29:45+05:30 [info]: verify the Sciensus HomePage Title
-2025-03-16T22:29:56+05:30 [info]: Click on the SignIn link
-2025-03-16T22:29:57+05:30 [info]: Portal User navigate to the Login Page
-2025-03-16T22:30:06+05:30 [info]: Click on the SignIN button
-Sciensus new verificationCode is------>008048

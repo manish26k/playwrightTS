@@ -171,6 +171,9 @@ test.describe("Portal Login Features Functionality", () => {
       await allure.owner('Manish Rana');
       await allure.tag('@login');
       await allure.severity('critical');
+      await allure.epic("Portal Login");
+      await allure.story("Login with valid credentials using JSON file");
+      
 
       await test.step('Attach login credentials (JSON)', async () => {
         await AllureHelper.attachJson('Login Data', loginData);

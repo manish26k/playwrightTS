@@ -23,7 +23,7 @@ export default defineConfig({
 
   reporter: [
     ["html"],
-    ["./utils/reporter/StepReporter.ts"],
+    //["./utils/reporter/StepReporter.ts"],
     // [
     //   "monocart-reporter",
     //   {
