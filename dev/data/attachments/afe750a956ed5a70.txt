@@ -1,0 +1,6 @@
+2025-04-12T20:54:24+05:30 [info]: Navigate to the Sciensus HomePage
+2025-04-12T20:54:24+05:30 [info]: verify the Sciensus HomePage Title
+2025-04-12T20:54:30+05:30 [info]: Click on the SignIn link
+2025-04-12T20:54:30+05:30 [info]: Portal User navigate to the Login Page
+2025-04-12T20:54:33+05:30 [info]: Click on the SignIN button
+Sciensus new verificationCode is------>996817
