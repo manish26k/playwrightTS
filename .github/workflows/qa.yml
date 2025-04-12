@@ -38,7 +38,7 @@ jobs:
 
       - name: Generate Allure Report
         run: |
-          npx allure generate my-allure-results --clean -o allure-report
+          npx allure generate allure-results --clean -o allure-report
           ls allure-report
 
       - name: Upload Allure Report Artifact

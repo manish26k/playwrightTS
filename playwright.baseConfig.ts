@@ -17,7 +17,7 @@ export default defineConfig({
     ["allure-playwright", {
       detail: true,
       //outputFolder: "portal-allure-results",
-      suiteTitle: false,
+      suiteTitle: true,
     }],
   ],
 
