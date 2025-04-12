@@ -16,7 +16,7 @@ export default defineConfig({
     ["html"],
     ["allure-playwright", {
       detail: true,
-      outputFolder: "my-allure-results",
+      //outputFolder: "portal-allure-results",
       suiteTitle: false,
     }],
   ],

@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"22a6b877864642c3223476a9f0eafeda","name":"Sciensus Portal Login","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}},{"uid":"36c900977e1d8b81a2c6893cc82bfc01","name":"chromium","statistic":{"failed":0,"broken":0,"skipped":3,"passed":0,"unknown":0,"total":3}}]}

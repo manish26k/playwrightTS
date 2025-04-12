@@ -1,7 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
 import dotenv from "dotenv";
 import { testConfig } from "./testConfig";
-import MonocartReporter from "monocart-reporter";
+//import MonocartReporter from "monocart-reporter";
 
 // Load environment variables
 dotenv.config();
@@ -23,7 +23,12 @@ export default defineConfig({
 
   reporter: [
     ["html"],
-    //["./utils/reporter/StepReporter.ts"],
+    ["allure-playwright", {
+      detail: true,
+      //outputFolder: "my-allure-results",
+      suiteTitle: true,
+    }],
+    
     // [
     //   "monocart-reporter",
     //   {
@@ -57,14 +62,7 @@ export default defineConfig({
     //     }        
     //   },
     // ],
-    [
-      "allure-playwright",
-      {
-        detail: true,
-        outputFolder: "my-allure-results",
-        suiteTitle: false,
-      },
-    ],
+    
   ],
 
   timeout: 240000,

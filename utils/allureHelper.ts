@@ -1,4 +1,4 @@
-import { allure } from "allure-playwright";
+import * as allure from "allure-js-commons";
 import fs from "fs";
 
 export class AllureHelper {
