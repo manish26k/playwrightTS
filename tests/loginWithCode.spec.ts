@@ -91,6 +91,7 @@ test.describe("Portal Login Features Functionality", () => {
     await allure.subSuite('Postive Test Case for Login Functionality');
 
 
+
       await test.step('Attach login credentials (JSON)', async () => {
         await AllureHelper.attachJson('Login Data', loginData);
       });
@@ -98,14 +99,14 @@ test.describe("Portal Login Features Functionality", () => {
       await test.step('Navigate to Sciensus Homepage and click on Sign In', async () => {
         await homePage.navigateToURL();
         await homePage.clickSignInButton();
-        await AllureHelper.attachScreenshot('Homepage', page);
+        await AllureHelper.attachScreenshot('Sciensus Homepage', page);
       });
 
       await test.step('Reterive login credentials and Perform login', async () => {
         //const mailSlurp = new MailSlurpHelper(testConfig.apiKEY);
         //const loginData = TestDataManager.getTestData('LoginCredentials.json');
         await loginPage.loginWithEmailPassword(loginData.email, loginData.password);
-        await AllureHelper.attachScreenshot('Login Page', page);
+        await AllureHelper.attachScreenshot('Sciensus LoginPage', page);
       });
 
       await test.step('Request and Reterive verification code', async () => {
@@ -123,7 +124,7 @@ test.describe("Portal Login Features Functionality", () => {
       await test.step('verify Code and Login Successfully', async () => {
         await loginPage.clickVerifyCodeButton();  
         await loginPage.clickContinueButton();
-        await AllureHelper.attachScreenshot('Post Login', page);
+        await AllureHelper.attachScreenshot('Sciensus LoggedIn UserPage', page);
       });
      
     });
