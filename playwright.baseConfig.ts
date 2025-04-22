@@ -41,7 +41,7 @@ export default defineConfig({
         browserName: "chromium",
         //channel: "chrome",
         //baseURL: testConfig[ENV],
-        headless: false,
+        headless: true,
         viewport: { width: 1500, height: 730 },
         acceptDownloads: true,
         screenshot: "on",
