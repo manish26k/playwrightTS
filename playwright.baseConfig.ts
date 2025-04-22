@@ -26,7 +26,8 @@ export default defineConfig({
     actionTimeout: 50 * 1000,
     navigationTimeout: 70 * 1000,
     launchOptions: {
-      slowMo: 2000,
+      //slowMo: 2000,
+      slowMo: process.env.CI ? 0 : 1000,
       devtools: false,
     },
     trace: "on-first-retry",
