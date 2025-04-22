@@ -39,7 +39,7 @@ export default defineConfig({
       name: "chromium",
       use: {
         browserName: "chromium",
-        channel: "chrome",
+        //channel: "chrome",
         //baseURL: testConfig[ENV],
         headless: false,
         viewport: { width: 1500, height: 730 },
